@@ -1,0 +1,22 @@
+WebSocket 的长连接,是对Http连接的升级! 这种属于全双工的 长连接,这种链接是真正意义上的长连接!
+
+常见的Handler
+HttpServerCodec
+WebSocketServerProtocolHandler
+
+
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cache-Control: no-cache
+Connection: Upgrade
+Host: localhost:8888
+Origin: http://localhost:8080
+Pragma: no-cache
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+Sec-WebSocket-Key: 1FXqWlVnmxUk4DhzbkHh5A==
+Sec-WebSocket-Version: 13
+Upgrade: websocket              由原来的Http 升级为 websocket了
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+
+
+这里配合 test.html 测试使用!

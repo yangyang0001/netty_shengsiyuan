@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="netty_shengsiyuan:war exploded">
+    <output-path>$PROJECT_DIR$/target/netty_shengsiyuan</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="netty_shengsiyuan" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: io.netty:netty-all:4.1.35.Final" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.6.1" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java-util:3.6.1" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:19.0" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.7" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/netty_shengsiyuan/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="netty_shengsiyuan/web/Web" />
+    </root>
+  </artifact>
+</component>

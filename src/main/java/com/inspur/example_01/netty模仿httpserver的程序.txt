@@ -1,0 +1,1 @@
+httpServer没有提供类似于springmvc, struts2 的 路由的判断,这与netty的设计方向和理念有关,并不是netty 很 low
