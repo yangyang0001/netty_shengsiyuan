@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../grpc-java/examples/build/install/examples/lib/grpc-core-1.21.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grpc-java/examples/build/install/examples/lib/opencensus-api-0.21.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grpc-java/examples/build/install/examples/lib/proto-google-common-protos-1.12.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grpc-java/examples/build/install/examples/lib/j2objc-annotations-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grpc-java/examples/build/install/examples/lib/protobuf-java-3.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grpc-java/examples/build/install/examples/lib/gson-2.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grpc-java/examples/build/install/examples/lib/grpc-context-1.21.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grpc-java/examples/build/install/examples/lib/examples.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grpc-java/examples/build/install/examples/lib/grpc-protobuf-lite-1.21.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grpc-java/examples/build/install/examples/lib/grpc-protobuf-1.21.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grpc-java/examples/build/install/examples/lib/guava-26.0-android.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grpc-java/examples/build/install/examples/lib/annotations-4.1.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grpc-java/examples/build/install/examples/lib/grpc-netty-shaded-1.21.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grpc-java/examples/build/install/examples/lib/grpc-stub-1.21.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grpc-java/examples/build/install/examples/lib/protobuf-java-util-3.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grpc-java/examples/build/install/examples/lib/jsr305-3.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grpc-java/examples/build/install/examples/lib/error_prone_annotations-2.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grpc-java/examples/build/install/examples/lib/animal-sniffer-annotations-1.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grpc-java/examples/build/install/examples/lib/checker-compat-qual-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grpc-java/examples/build/install/examples/lib/grpc-api-1.21.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grpc-java/examples/build/install/examples/lib/opencensus-contrib-grpc-metrics-0.21.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
