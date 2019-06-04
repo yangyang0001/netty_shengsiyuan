@@ -1,0 +1,5 @@
+如果有很多的message的话,在netty中只能用if 来判断,这是没有办法的,netty 中 没有提供路由的判断!
+
+如果*.proto文件和生成的java文件经常变化,如果通过Git来控制呢?(同步到不同的客户端上)
+git submodule
+git subtree

@@ -1,0 +1,20 @@
+syntax="proto3";
+
+package grpc_proto;
+
+option java_multiple_files = true;
+option java_package = "com.inspur.grpc.proto";
+option java_outer_classname = "StudentProto";
+
+service StudentService {
+    rpc GetRealNameByUserName (MyRequest) returns (MyResponse) {}
+}
+
+
+message MyRequest {
+    string username = 1;
+}
+
+message MyResponse {
+    string realname = 2;
+}

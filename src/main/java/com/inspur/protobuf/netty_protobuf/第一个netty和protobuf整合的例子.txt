@@ -1,0 +1,6 @@
+生成文件的命令:
+protoc -I=$SRC_DIR --java_out=$DST_DIR $SRC_DIR/addressbook.proto
+
+例子:
+protoc -I=E:\study_workspace\netty_shengsiyuan\src\main\java\protobuf --java_out=E:\study_workspace\netty_shengsiyuan\src\main\java E:\study_wor
+kspace\netty_shengsiyuan\src\main\java\protobuf\StudentData2.proto

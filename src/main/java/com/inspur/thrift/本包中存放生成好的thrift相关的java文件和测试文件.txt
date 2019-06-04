@@ -1,0 +1,1 @@
+这里的Client的transport 和 protocol 必须是一样的,才能在传输的过程中正常传输!

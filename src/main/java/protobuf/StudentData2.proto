@@ -1,0 +1,34 @@
+syntax="proto2";
+
+package protocol_buffers;
+
+option optimize_for = SPEED;
+option java_package = "com.inspur.protobuf";
+option java_outer_classname = "StudentData2";
+
+enum StudentType {
+    StudentType1 = 0;
+    StudentType2 = 1;
+}
+
+message StudentObject {
+    required StudentType studentType = 1;
+    oneof student_message {
+        Student student = 2;
+        Student2 student2 = 3;
+    }
+}
+
+message Student {
+    optional string name = 1;
+    optional int32 age = 2;
+    optional string address = 3;
+}
+//提出来 Handler中 不写死 是哪一种类型的 protobuf 可以随意传递任何一种
+//channelPipeline.addLast(new ProtobufDecoder(StudentData.Student.getDefaultInstance()));
+//这种方式往往通过 包裹类 来处理
+message Student2 {
+    optional string name = 1;
+    optional int32 age = 2;
+    optional string password = 3;
+}
