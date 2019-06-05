@@ -9,15 +9,6 @@
         <webroots>
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/src/main/java" />
-          <root url="file://$MODULE_DIR$/src/main/protobuf" />
-          <root url="file://$MODULE_DIR$/src/main/protobuf/grpc-java" />
-          <root url="file://$MODULE_DIR$/src/main/protobuf/java" />
-          <root url="file://$MODULE_DIR$/src/main/resources" />
-          <root url="file://$MODULE_DIR$/target/generated-sources/protobuf/grpc-java" />
-          <root url="file://$MODULE_DIR$/target/generated-sources/protobuf/java" />
-        </sourceRoots>
       </configuration>
     </facet>
   </component>
@@ -30,7 +21,11 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/protobuf/grpc-java" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/protobuf/java" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/protobuf" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/target" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/protobuf" isTestSource="false" generated="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/target/maven-status" />
+      <excludeFolder url="file://$MODULE_DIR$/target/protoc-dependencies" />
+      <excludeFolder url="file://$MODULE_DIR$/target/protoc-plugins" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

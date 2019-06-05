@@ -8,8 +8,26 @@ option java_outer_classname = "StudentProto";
 
 service StudentService {
     rpc GetRealNameByUserName (MyRequest) returns (MyResponse) {}
-}
+    /*
+     * 展示 stream 的 使用和 传递简单的 入参
+     * 在grpc 中的 参数必须是 message类型的 ,grpc 请求和相依必须是 message类型的
+     * 这里的int32 会抛出异常(编译的时候):
+     * rpc GetStudentByAge(int32) returns (stream StudentResponse) {}
+     * 这个 thrift 的设计理念是完全不同的
+     */
+    rpc GetStudentByAge(StudentRequest) returns (stream StudentResponse) {}
 
+    /*
+     * 请求参数为stream 返回为 message(这里为集合的方式)
+     */
+    rpc GetStudentListByAge(stream StudentRequest) returns (StudentResponseList) {}
+
+    /*
+     * 请求参数为stream 返回为 stream
+     */
+    rpc BinaryStreamTalk(stream StreamRequest) returns (stream StreamResponse) {}
+
+}
 
 message MyRequest {
     string username = 1;
@@ -18,3 +36,34 @@ message MyRequest {
 message MyResponse {
     string realname = 2;
 }
+
+message StudentRequest {
+    int32 age = 1;
+}
+
+message StudentResponse {
+    string username = 1;
+    int32 age = 2;
+    string city = 3;
+}
+
+message StudentResponseList {
+    repeated StudentResponse studentResponse = 1;
+}
+
+
+
+message StreamRequest {
+    string requestParam = 1;
+}
+
+message StreamResponse {
+    string responseParam = 1;
+}
+
+
+
+
+
+
+
