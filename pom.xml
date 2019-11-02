@@ -28,7 +28,7 @@
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
-            <version>4.1.35.Final</version>
+            <version>4.1.42.Final</version>
         </dependency>
 
         <!--Protocol Buffers的使用, 引入两个包, protobuf-java包  和  protobuf-java-util包
